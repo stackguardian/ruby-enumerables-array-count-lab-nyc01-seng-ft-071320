@@ -13,4 +13,6 @@ def count_empty_strings(array)
   array.count do |element|
     if element.class == String 
       total += 1
+    end
+end
 end
